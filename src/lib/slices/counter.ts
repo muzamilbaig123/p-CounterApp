@@ -13,10 +13,10 @@ const myCounterApp = createSlice({
     initialState: initialNumber,
     reducers: {
         increment: (state) => {
-            state.value += 1
+            state.value += 1;
         },
         decrement: (state) => {
-            state.value > 0 ? state.value -= 1 : state.value 
+            state.value > 0 ? state.value -= 1 : state.value; 
         }
 
     }
